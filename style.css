@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    height: 100vh;
+
+}
+
+.main {
+    width: fit-content;
+    background-color: rgb(57, 71, 100);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    padding: 1px 3px;
+    
+
+}
+
+ 
+ p {
+    align-self: start;
+    margin: 13px;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+ }
+ 
+
+.mid {
+    width: 205px;
+    height: 50px;
+    background-color: rgb(36, 43, 69);
+    border-radius: 8px;
+    color: aliceblue;
+    outline: none;
+    border: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+
+
+
+
+
+.container {
+    margin: 10px;
+    background-color: rgb(36, 43, 69);
+    width: fit-content;
+    padding: 5px;
+    border-radius: 8px;
+    padding-top: 10px;
+
+
+
+}
+.num-cont {
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button {
+    width: calc(90% / 4);
+    height: calc(90% / 5);
+    margin:  0px 2px;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 6px;
+    border:none ;
+
+
+}
+
+
+.spi {
+    width: calc(95% / 2);
+
+}
+
+button:nth-child(4),
+button:nth-child(17)
+{
+    background-color: rgb(97, 114, 151);
+    color: white;
+}
+
+button:nth-child(18){
+    color: white;
+    background-color: rgb(202, 86, 3);
+}
+
+
+
+
